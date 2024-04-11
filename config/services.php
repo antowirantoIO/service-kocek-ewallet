@@ -31,4 +31,21 @@ return [
         ],
     ],
 
+    'whatsapp' => [
+        'url' => env('WHATSAPP_SERVICE_URL'),
+        'key' => env('WHATSAPP_SERVICE_KEY'),
+    ],
+
+    'biller' => [
+        'prepaid_base_url' => env('BILLER_PREPAID_BASE_URL'),
+        'postpaid_base_url' => env('BILLER_POSTPAID_BASE_URL'),
+        'username' => env('BILLER_USERNAME'),
+        'api_key' => env('BILLER_API_KEY'),
+    ],
+
+    'flip' => [
+        'base_url' => env('PAYMENT_GATEWAY_BASE_URL'),
+        'secret_key' => env('PAYMENT_GATEWAY_SECRET_KEY'),
+    ]
+
 ];
